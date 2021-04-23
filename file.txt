@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 hello world
 hello world
+=======
+hello worl
+>>>>>>> development/feature-1
