@@ -1,4 +1,4 @@
-export const EnTranslationLayout = {
+export const EnTranslationLayouts = {
     "nav": {
         "header": {
             "links": {
