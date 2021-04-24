@@ -1,0 +1,17 @@
+// Variables
+@import '../variables';
+
+//Table element
+
+.ui {
+  &.tabular {
+    &.menu {
+      &.wrapped {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 0;
+      }
+    }
+  }
+}

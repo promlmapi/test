@@ -1,0 +1,22 @@
+// Variables
+@import '../variables';
+
+.auth-page {
+  .ui {
+    &.message {
+      border-radius: 0;
+      padding: 0;
+      background-color: transparent !important;
+      box-shadow: none !important;
+      font-size: 15px;
+      font-weight: bold;
+      &.negative {
+        color: $pinkdark;
+        a {
+          color: $blue;
+        }
+      }
+    }
+  }
+}
+

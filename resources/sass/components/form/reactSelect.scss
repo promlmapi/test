@@ -1,0 +1,68 @@
+// Variables
+@import '../../variables';
+
+//React Select input
+.element-select-input-container {
+
+  &:hover {
+    border-color: rgba(34,36,38,.35);
+  }
+
+  .element-select-input__control {
+    border-radius: 0 !important;
+    height: 40px;
+    padding: 0 5px;
+    border: $border-gray solid 1px !important;
+    box-shadow: unset !important;
+    // background-color: $brand-color-gray;
+    font-size: 15px;
+    font-weight: 500;
+    color: $blue;
+    // font-family: $Montserrat;
+
+    &.element-select-input__control--is-focused {
+      border-color: $input-focus-border-color !important;
+    }
+
+    //Hide the right vertical line
+    .element-select-input__indicator-separator {
+        display: none;
+    }
+  
+    //Input text color after selection
+    .element-select-input__value-container {
+  
+        .css-xp4uvy, .element-select-input__placeholder, .element-select-input__single-value {
+            color: $blue !important;
+        }
+  
+        .element-select-input__placeholder {
+            opacity: 0.67;
+        }
+  
+        input {
+            height: unset;
+            border: none !important;
+        }
+  
+        //To fix text vertical alignment in mobile
+        .element-select-input__placeholder, .element-select-input__single-value {
+            height: 40px;
+            line-height: 40px;
+            font-weight: 400;
+        }
+    }
+  }
+
+  .element-select-input__indicators {
+    .element-select-input__dropdown-indicator {
+      color: $pinkdark;
+
+      svg {
+        height: 13px;
+        width: 13px;
+      }
+    }
+  }
+
+}

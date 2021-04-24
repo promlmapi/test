@@ -1,0 +1,65 @@
+// Variables
+@import '../variables';
+
+//Table element
+.ui {
+    &.table {
+        border-radius: 0;
+        thead {
+            tr {
+                &:first-child {
+                    th {
+                        background-color: $brand-blue-light;
+                        color: $white;
+                        border: none;
+                        &:first-child, &:last-child {
+                            border-radius: 0;
+                        }
+                    }
+                }
+                @media only screen and (max-width: 767px) {
+                    padding: 0 !important;
+
+                }
+            }
+        }
+
+        tbody {
+            tr {
+                td {
+                    vertical-align: middle;
+
+                    &.selectable {
+                        a {
+                            &:not(.ui) {
+                                display: flex;
+                            }
+                        }
+                    }
+
+                    //Attachment links in documents page
+                    a {
+                        &.attachment-link {
+                            margin-right: 4px;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+.table-dynamic {
+    ~ .table-dynamic {
+        margin-top: 3rem !important;
+    }
+
+    tbody {
+        tr {
+            td {
+                width: 50%;
+            }
+        }
+    }
+}

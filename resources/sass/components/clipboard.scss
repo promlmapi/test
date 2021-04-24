@@ -1,0 +1,11 @@
+// Variables
+@import "../variables";
+
+.element-clipboard {
+
+  &__button {
+    &.ui.basic.blue.button.blue {
+      color: $brand-blue-light !important;
+    }
+  }
+}

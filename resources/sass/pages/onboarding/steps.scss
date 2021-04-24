@@ -1,0 +1,32 @@
+// Variables
+@import '../../variables';
+
+.ui {
+  &.steps {
+    .step {
+      background-color: $brand-blue-light;
+      color: $white;
+      &:after {
+        background-color: $brand-blue-light;
+      }
+      .title {
+        padding-bottom: 10px;
+      }
+      .description, .title {
+        color: $white;
+        font-size: 20px;
+      }
+      &.active {
+        background-color: $brand-blue-dark;
+        .content {
+          .description, .title {
+            color: $white !important;
+          }
+        }
+        &:after {
+          background-color: $brand-blue-dark;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,142 @@
+// Variables
+@import '../variables';
+
+.main-footer {
+  margin-top: 100px;
+  .info-button {
+    z-index: 1000;
+    bottom: 1rem;
+    position: fixed;
+    right: 1rem;
+  }
+}
+
+.footer-info-label {
+  float: right !important;
+  box-shadow: 0 0 0 1px $color-border-6 inset, 0 0 0 0 rgba(0, 0, 0, 0);
+  background-color: $color-background-14 !important;
+  color: $color-font-7 !important;
+  border: unset;
+  bottom: 1.1rem;
+  z-index: 1000;
+  position: fixed;
+  right: 4rem;
+}
+
+.footer {
+  border-top: #d8dbde solid 1px;
+  padding: 90px 0 20px;
+  .hide {
+    display: none !important;
+  }
+  .footer-top {
+    .info-col {
+      p {
+        margin-bottom: 0;
+        font-size: 26px;
+        font-weight: 300;
+        color: #3e495c;
+        line-height: normal;
+
+        @media screen and (min-width: 421px) and (max-width: 768px) {
+          font-size: 24px;
+        }
+
+        @media screen and (max-width: 420px) {
+          font-size: 22px;
+        }
+
+        strong {
+          font-weight: 900;
+        }
+      }
+      &.right {
+        float: right;
+        @media screen and (max-width: 768px) {
+          float: left;
+        }
+      }
+      .mb-5 {
+        margin-bottom: 2.5rem !important;
+      }
+
+      @media screen and (max-width: 768px) {
+        margin-bottom: 20px;
+
+        .mb-5 {
+          margin-bottom: 5px !important;
+        }
+      }
+    }
+    .footer-widget {
+      h5 {
+        margin-bottom: 10px;
+        color: #f82f4a;
+        font-weight: 900;
+        font-size: 16px;
+
+      }
+      @media screen and (max-width: 768px) {
+        margin-bottom: 20px;
+      }
+    }
+    ul {
+      margin: 0px;
+      padding: 0px;
+      li {
+        list-style: none;
+        line-height: 28px;
+        a {
+          font-size: 16px;
+          color: #3e495c;
+          font-weight: 400;
+        }
+      }
+    }
+
+  }
+  .footer-middle {
+    margin-top: 90px;
+    margin-bottom: 40px;
+    p {
+      font-size: 13px;
+      color: #3e495c;
+      text-align: right;
+      @media screen and (max-width: 768px) {
+        text-align: left;
+        margin-top: 15px;
+      }
+    }
+    .footer-nav {
+      ul {
+        margin: 0px;
+        padding: 0px;
+        li {
+          list-style: none;
+          float: left;
+          font-size: 13px;
+          margin-right: 20px;
+          a {
+            color: #3e495c;
+            font-weight: 200;
+          }
+        }
+      }
+    }
+    @media screen and (max-width: 768px) {
+      margin-top: 0;
+    }
+  }
+  .footer-bottom {
+    border-top: #d8dbde solid 1px;
+    padding-top: 50px;
+    p {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 18px;
+      color: #3e495c;
+      margin-bottom: 0;
+    }
+  }
+
+}

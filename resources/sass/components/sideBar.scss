@@ -1,0 +1,230 @@
+// Variables
+@import '../variables';
+
+.container-body-sidebar {
+    @media screen and (max-width: 990px) {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        .left-side-menu {
+            &.parent {
+                width: 100%;
+                .accordion {
+                    width: 100%;
+                }
+            }
+
+        }
+    }
+    @media screen and (max-width: 480px) {
+        .left-side-menu {
+            &.parent {
+                width: 100%;
+            }
+        }
+    }
+    .left-side-menu {
+        &.admin-left-side-menu {
+            margin-top: 0;
+        }
+        &.styled {
+            &.accordion {
+                border-radius: 0;
+                box-shadow: none;
+                .title {
+                    background-color: $brand-gray-light;
+                    font-size: 20px;
+                    color: $darkGray;
+                    border: none;
+                    margin-bottom: 3px;
+                    position: relative;
+                    padding: .75em .5em;
+                    div {
+                        position: relative;
+                        padding-left: 40px;
+                        small {
+                            width: 38px;
+                            text-align: center;
+                            position: absolute;
+                            left: 0;
+                        }
+                    }
+                    i.dropdown {
+                        display: none !important;
+                    }
+
+                    .arrow {
+                        position: absolute;
+                        top: 0;
+                        right: -10px;
+                        i {
+                            font-size: 17px;
+                            color: $green;
+                            &.down {
+                                display: none;
+                            }
+                        }
+                    }
+
+                    &:hover, &.active {
+                        background-color: $brand-gray-light;
+                        color: $blue;
+                    }
+
+                    &.active {
+                        margin-bottom: 0;
+
+                        i {
+                            color: $pinkdark;
+                            &.down {
+                                display: block;
+                            }
+                            &.left {
+                                display: none;
+                            }
+                        }
+
+                    }
+
+                    @media screen and (min-width: 991px) {
+                        &.accordion-responsive-title {
+                            display: none;
+                        }
+                    }
+
+                }
+                .content {
+                    background-color: $brand-blue-light;
+                    &.accordion-responsive-content {
+                        background-color: transparent;
+                    }
+                    padding: 0;
+                    &.active {
+                        margin-bottom: 3px;
+                    }
+
+                    .menu {
+                        border-radius: 0;
+                        box-shadow: none;
+                        border: none;
+                        background-color: transparent;
+
+                        a {
+                            color: $white;
+                            font-size: 16px;
+                            position: relative;
+                            border-bottom: $border-blue-light solid 1px;
+                            padding: .92857143em 1.14285714em;
+                            &:before {
+                                display: none;
+                            }
+
+                            &:first-child, &:last-child {
+                                border-radius: 0;
+                            }
+                            &:last-child {
+                                border: none;
+                            }
+                            &:hover {
+                                background-color: transparent;
+                            }
+                            &.active {
+                                background-color: $brand-blue-dark;
+                                &:after {
+                                    left: 100%;
+                                    top: 50%;
+                                    border: solid transparent;
+                                    content: " ";
+                                    height: 0;
+                                    width: 0;
+                                    position: absolute;
+                                    pointer-events: none;
+                                    border-left-color: $brand-blue-dark;
+                                    border-width: 22px;
+                                    margin-top: -22px;
+                                    @media screen and (max-width: 768px) {
+                                        display: none;
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+
+                    .sub-menu {
+                        margin-top: 3px;
+                        width: 100%;
+                        .title {
+                            background-color: $brand-blue-light;
+                            color: $white;
+                            border-bottom: $border-blue-light solid 1px;
+                            &.active {
+                                border-bottom: 0;
+                            }
+                            div {
+                                padding-left: 0;
+
+                                .arrow {
+                                    i {
+                                        &.left {
+                                            color: $blue;
+                                        }
+                                    }
+                                }
+
+                            }
+                        }
+                        .content {
+                            a {
+                                padding-left: 40px;
+                                &:first-child {
+                                    border-top: $border-blue-light solid 1px;
+                                }
+                            }
+
+                        }
+                        &.left-side-menu {
+                            .menu {
+                                a {
+                                    &:last-child {
+                                        border-bottom: $border-blue-light solid 1px;
+                                    }
+                                }
+                            }
+                            .title {
+                                font-size: 16px;
+                                padding: 0.92857143em 1.14285714em;
+                                font-weight: 400;
+                            }
+                            .content {
+                                padding-top: 0;
+                            }
+                            .content, .title {
+                                margin-bottom: 0;
+                                & > i {
+                                    display: none;
+                                }
+                            }
+
+                        }
+                    }
+
+                    @media screen and (min-width: 991px) {
+                        &.accordion-responsive-content {
+                            display: block;
+                            margin-top: 0;
+                            .left-side-menu {
+                                margin-top: 0;
+                            }
+                        }
+                    }
+
+                }
+            }
+
+        }
+
+    }
+
+}
+
+ 

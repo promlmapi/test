@@ -1,0 +1,10 @@
+// Variables
+@import '../variables';
+
+.ui {
+  &.default, &.dropdown {
+    &.dropdown:not(.button)>.text, &:not(.button)>.default.text {
+      color: unset;
+    }
+  }
+}

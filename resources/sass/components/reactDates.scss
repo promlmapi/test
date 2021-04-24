@@ -1,0 +1,100 @@
+//Background colors
+$color-background-3: #15294a;
+$color-background-7: rgba(21, 41, 74, 0.6); //Hover color
+
+//Border colors
+$color-border-3: $color-background-3;
+$color-border-4: rgba(21, 41, 74, 0.6); //Hover color
+
+//Font colors
+$color-font-1: $color-background-3;
+$color-font-3: #ffffff;
+
+.date-range-picker-container {
+  margin-bottom: -3rem;
+  position: relative;
+  z-index: 1;
+
+  @media (max-width: 410px) {
+    margin-bottom: unset;
+  }
+}
+
+//.DateRangePicker {
+//  margin-bottom: 1rem;
+//}
+
+.DateRangePicker_picker {
+  z-index: 9999;
+}
+
+.CalendarDay__selected, .CalendarDay__selected:active, .CalendarDay__selected:hover {
+  background: $color-background-3;
+  border: 1px double $color-border-3;
+}
+
+.CalendarDay__selected_span {
+  background: $color-background-7;
+  border: 1px double $color-border-4;
+
+  &:active, &:hover {
+    background: $color-background-7;
+    border: 1px double $color-border-4;
+  }
+}
+
+.CalendarDay__hovered_span {
+
+  background: $color-background-7;
+  border: 1px double $color-border-4;
+  color: $color-font-3;
+
+  &:active, &:hover {
+    background: $color-background-7;
+    border: 1px double $color-border-4;
+    color: $color-font-3;
+  }
+}
+
+.DateInput_input__focused {
+  border-bottom: 2px solid $color-border-3;
+}
+
+.DateInput {
+  padding: 3px;
+}
+
+.DateInput_input__small {
+  padding: 5px 7px 0;
+}
+
+.DayPickerKeyboardShortcuts_show__bottomRight {
+  border-right: 33px solid $color-border-3;
+
+  &:hover {
+    border-right: 33px solid $color-border-3;
+  }
+}
+
+.CalendarMonth_caption {
+  padding-bottom: 50px;
+}
+
+.PresetDateRangePicker_button {
+  margin-top: 0.5rem;
+  border: 2px solid $color-border-3;
+  color: $color-font-1;
+}
+
+.PresetDateRangePicker_button__selected {
+  background: $color-background-3;
+  color: $color-font-3;
+}
+
+.DateRangePickerInput_clearDates {
+  margin: -2px 10px 0px 5px;
+}
+
+.DateRangePickerInput_calendarIcon {
+  margin: -4px 5px 0 10px;
+}

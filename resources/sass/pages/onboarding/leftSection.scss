@@ -1,0 +1,55 @@
+// Variables
+@import '../../variables';
+
+.on-boarding-form {
+  margin-top: 3rem;
+
+  .on-boarding-left {
+    h1 {
+      color: $color-font-1;
+      font-weight: 900;
+    }
+
+    .step-form {
+      margin-top: 3rem;
+
+      small {
+        clear: both;
+        display: block;
+      }
+
+      form {
+        .field {
+          margin: 2em 0 1em;
+
+          label {
+            font-weight: 400;
+          }
+        }
+
+        .fields {
+          .field {
+            margin: 1em 0 0;
+            @media only screen and (max-width: 767px) {
+              margin: 1em 0 1em;
+            }
+          }
+        }
+
+        button {
+          margin-bottom: 0.8rem;
+
+          &.skip-button {
+            background: $color-font-2;
+          }
+        }
+        small {
+          color: $color-font-2;
+          font-size: 14px;
+          font-weight: 300;
+          line-height: 19px;
+        }
+      }
+    }
+  }
+}

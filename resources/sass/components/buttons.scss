@@ -1,0 +1,139 @@
+// Variables
+@import '../variables';
+
+button, a {
+  &.button {
+    &.ui {
+      &.inverted {
+        &.red {
+          box-shadow: 0 0 0 2px $brand-pink-dark inset;
+          color: $brand-pink-dark;
+          .icon {
+            color: $brand-pink-dark;
+          }
+
+          &:hover, &:active, &:focus {
+            background-color: $brand-pink-dark;
+            .icon {
+              color: $white;
+            }
+          }
+        }
+      }
+      &.fluid {
+        background-color: $brand-pink-dark;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+        text-transform: uppercase;
+        border-radius: 0px;
+        display: inline-block;
+        width: auto;
+        padding: 0;
+        position: relative;
+        color: $white;
+        width: 140px;
+        &:before {
+          content: "";
+          box-sizing: border-box;
+          background-color: $brand-gray-dark;
+          width: 144px;
+          height: 2px;
+          position: absolute;
+          bottom: -4px;
+          left: 0;
+        }
+        &:after {
+          content: "";
+          box-sizing: border-box;
+          background-color: $brand-gray-dark;
+          width: 2px;
+          height: 43px;
+          position: absolute;
+          top: 0px;
+          right: -4px;
+        }
+
+        &:hover, &:focus, &:active {
+          background-color: $brand-red;
+        }
+
+        &.loading {
+          &:before {
+            width: 1.28571429em;
+            height: 1.28571429em;
+            background-color: transparent;
+            left: 50%;
+          }
+          &:after {
+            position: absolute;
+            top: 50%;
+            width: 1.28571429em;
+            height: 1.28571429em;
+            background-color: transparent;
+          }
+        }
+
+        &.small-bnt {
+          width: 100px;
+          height: 35px;
+          line-height: 35px;
+          font-size: 14px;
+          padding: 0;
+          i {
+            margin-right: 0 !important;
+          }
+          &:before {
+            width: 104px;
+          }
+          &:after {
+            height: 39px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.ui.icon.button>.icon, .ui.icon.buttons .button>.icon {
+  vertical-align: unset;
+}
+
+.ib-profile--termination-btn{
+  float:right;
+  display:block;
+  margin-right:0px;
+  clear:left;
+}
+
+.custom-ui {
+  text-align: center;
+  width: 500px;
+  padding: 40px;
+  background: #28bae6;
+  box-shadow: 0 20px 75px rgba(0, 0, 0, 0.23);
+  color: #fff;
+}
+
+.custom-ui > button {
+  width: 160px;
+  padding: 10px;
+  border: 1px solid #fff;
+  margin: 10px;
+  cursor: pointer;
+  background: none;
+  color: #152a4a;
+  font-size: 14px;
+}
+
+.custom-ib-profile__edit-btn {
+  position: absolute;
+  left: 130px;
+  top: 50px;
+}
+
+.custom-pending-profile__edit-btn {
+  position: absolute;
+  left: 110px;
+  top: 10px;
+}

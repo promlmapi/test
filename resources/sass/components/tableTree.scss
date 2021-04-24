@@ -1,0 +1,356 @@
+// Variables
+@import '../variables';
+
+.DateRangePicker {
+  .DateRangePickerInput__showClearDates {
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+  }
+  .DateRangePickerInput_calendarIcon {
+    padding: 0;
+    margin: 0 6px 0 0;
+    svg {
+      fill: $cyandark;
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  .DateRangePickerInput_clearDates {
+    padding: 0px;
+    margin: 0px 10px 0 0;
+    svg {
+      fill: $pinkdark;
+      height: 12px;
+    }
+    &:hover, &:focus {
+      background-color: transparent;
+    }
+  }
+}
+
+.page-body {
+  &.client {
+    
+    &.right-column-chooser {
+      .tree-table-card {
+        .card-header {
+          min-height: 0;
+          padding: 0 !important;
+
+          .btn-outline-secondary {
+            top: -45px;
+            right: 0;
+          }
+        }
+      }
+    }
+
+    .tree-table-card {
+      .card-header {
+        min-height: 25px;
+
+        .btn-outline-secondary {
+          position: absolute;
+          top: -40px;
+          right: 110px;
+
+          @media screen and (max-width: 480px) {
+            top: -108px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.tree-table-card {
+  clear: both;
+  .card-header {
+    border-radius: 0px;
+    background-color: transparent;
+    border: none;
+  }
+
+  &.card {
+    border-radius: 0;
+    border: none;
+  }
+  .tree-table {
+    .table {
+      thead {
+        tr {
+          &:first-child {
+            th {
+              &:first-child {
+                background-color: $brand-blue-dark !important;
+                font-weight: 900;
+              }
+            }
+          }
+
+          //th {
+          //  .input-group {
+          //    input:read-only ~ :after {
+          //      display: none;
+          //    }
+          //  }
+          //}
+        }
+      }
+      tbody {
+        tr {
+          td {
+            &:first-child {
+              font-weight: 900;
+            }
+
+            &.dx-g-bs-6-table-cell, &.dx-g-bs4-table-cell {
+              .ui.loading.segment:before {
+                background: unset;
+              }
+            }
+
+            &.text-nowrap {
+              white-space: normal !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .table {
+    border-radius: 0 !important;
+    border: none !important;
+    th, td {
+      border: none;
+    }
+    thead {
+      tr {
+        th {
+          background-color: $brand-white;
+          border: none;
+        }
+        .input-group {
+          position: relative;
+          .form-control {
+            border-radius: 0;
+            background-image: url(../../assets/images/icons/filter-icon.png);
+            background-repeat: no-repeat;
+            background-position: right 7px top 8px;
+           }
+          .form-control:read-only{
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+            opacity: 0.5;
+          }
+
+          .input-group-prepend {
+            display: none;
+          }
+        }
+
+        &:first-child {
+          th {
+            background-color: $brand-blue-light !important;
+            color: $white;
+            height: 50px;
+            padding: 0;
+            line-height: 50px;
+            padding-left: 11px;
+            .text-primary {
+              color: $white !important;
+            }
+            .dx-g-bs4-toggle-button-hidden {
+              display: none;
+            }
+            &:first-child, &:last-child {
+              border-radius: 0px !important;
+            }
+          }
+        }
+      }
+
+    }
+
+    tbody {
+      tr {
+        td {
+          padding: 15px 10px;
+          height: 68px;
+          vertical-align: middle;
+          .dx-g-bs4-toggle-button {
+            color: $cyandark;
+          }
+
+          button, a {
+            &.button {
+              &.ui {
+                &.fluid {
+                  width: auto;
+                  height: auto;
+                  line-height: normal;
+                  display: block;
+                  padding: 5px 0;
+                  &:before, &:after {
+                    display: none;
+                  }
+
+                }
+              }
+            }
+          }
+
+        }
+      }
+
+      tr:nth-child(odd) {
+        td {
+          background-color: $brand-gray-light;
+        }
+      }
+    }
+
+  }
+
+}
+
+.page-item {
+  margin: 0 3px;
+  .page-link {
+    background-color: $brand-blue-light;
+    color: $white;
+    border: none;
+    padding: 6px;
+    font-weight: 700;
+    font-size: 14px;
+    min-width: 28px;
+    text-align: center;
+  }
+  &:first-child, &:last-child {
+    .page-link {
+      border-radius: 0;
+    }
+  }
+
+  &.active {
+    .page-link {
+      background-color: $brand-blue-dark;
+    }
+  }
+}
+
+div {
+  &.DayPickerNavigation_button__horizontalDefault {
+    background-color: $brand-pink-dark;
+    border-radius: 0;
+    border: none;
+    width: 28px;
+    height: 27px;
+    background-position: 11px 8px;
+    background-repeat: no-repeat;
+    svg {
+      fill: $white;
+      display: none;
+    }
+    &:hover, &.focus, &.active {
+      border: none;
+      background-color: $brand-pink-dark;
+      box-shadow: none;
+      outline: none;
+      background-repeat: no-repeat;
+      background-position: 11px 8px;
+    }
+    &.DayPickerNavigation_leftButton__horizontalDefault {
+      background-image: url(../../assets/images/icons/prev.png);
+    }
+    &.DayPickerNavigation_rightButton__horizontalDefault {
+      background-image: url(../../assets/images/icons/next.png);
+    }
+
+  }
+}
+
+td {
+  &.CalendarDay {
+    border: $white solid 3px;
+    &:hover {
+      border: $white solid 3px !important;
+    }
+
+    &.CalendarDay__default {
+      background-color: $brand-gray-light;
+      &:hover {
+        background-color: $brand-gray-light;
+      }
+    }
+
+    &.CalendarDay__selected_span {
+      background-color: $brand-blue-light;
+      color: $white;
+      &:hover {
+        background-color: $brand-blue-light;
+      }
+    }
+
+    &.CalendarDay__selected {
+      background-color: $brand-blue-dark !important;
+    }
+
+    &.CalendarDay__hovered_span {
+      background-color: $brand-blue-light;
+      &:active, &:hover {
+        background-color: $brand-blue-light;
+      }
+
+    }
+
+  }
+  .dx-g-bs4-table-tree-content {
+    &.w-100 {
+      width: auto !important;
+      a {
+        &.button {
+          border-radius: 0;
+          font-size: 16px;
+          font-weight: 700;
+          padding: 10px 15px !important;
+          color: $blue !important;
+        }
+      }
+    }
+  }
+
+}
+
+div {
+  &.DateRangePicker {
+    @media screen and (max-width: 480px) {
+      width: 100%;
+      padding: 25px 0 0;
+      float: left;
+      .DateRangePickerInput__withBorder {
+        width: 100%;
+      }
+      .DateRangePickerInput_clearDates {
+        margin: 10px 10px 0 0;
+      }
+    }
+  }
+}
+
+.dx-g-bs4-table-container{
+  position: relative;
+  // big{
+  //   &.text-muted{
+  //     position: absolute;
+  //     left: 0;
+  //     right: 0;
+  //     text-align: center;
+  //     margin-top: -9px;
+  //   }
+  // }
+}

@@ -1,0 +1,18 @@
+// Variables
+@import '../variables';
+
+.ui {
+  &.cards {
+    &.custom-card {
+      .content {
+        .header {
+          color: $color-font-1 !important;
+        }
+      }
+    }
+  }
+}
+
+.card-margin-top {
+  margin-top: 0.875em !important;
+}
