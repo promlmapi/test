@@ -1,24 +1,24 @@
 export const EnTranslationCommon = {
     "agreement": {
-        "title": "By continuing you confirm that you are over 18 years and agree to the terms of FP Markets privacy policy.",
+        "title": "Al continuar, confirma que es mayor de 18 años y acepta los términos de la política de privacidad de FP Markets.",
     },
     "delete": {
-        "title": "Delete",
+        "title": "Borrar",
     },
     "next": {
-        "title": "Next",
+        "title": "Próxima",
     },
     "pleaseSelect": {
-        "title": "Please select",
+        "title": "Por favor seleccione",
     },
     "skip": {
-        "title": "Skip",
+        "title": "Saltar",
     },
     "submit": {
-        "title": "Submit",
+        "title": "Enviar",
     },
     "update": {
-        "title": "Update",
+        "title": "Actualizar",
     },
 };
 

@@ -1,413 +1,413 @@
 export const EnTranslationField = {
     accountHolderAddress: {
-        title: 'Account Holder\'s Address',
-        placeHolder: 'Account Holder\'s Addres'
+        title: 'Dirección del titular de la cuenta',
+        placeHolder: 'Dirección del titular de la cuenta'
     },
     adjustmentAmount: {
-        title: 'Adjustment amount',
-        placeHolder: 'Adjustment amount'
+        title: 'Importe de ajuste',
+        placeHolder: 'Importe de ajuste'
     },
     adjustmentCurrency: {
-        title: 'Adjustment currency',
-        placeHolder: 'Adjustment currency'
+        title: 'Moneda de ajuste',
+        placeHolder: 'Moneda de ajuste'
     },
     adjustmentDate: {
-        title: 'Adjustment date',
-        placeHolder: 'Adjustment date'
+        title: 'Fecha de ajuste',
+        placeHolder: 'Fecha de ajuste'
     },
     adjustmentDeclaration: {
-        title: 'Adjustment declaration',
-        placeHolder: 'Adjustment declaration'
+        title: 'Declaración de ajuste',
+        placeHolder: 'Declaración de ajuste'
     },
     adjustmentReason: {
-        title: 'Adjustment reason',
-        placeHolder: 'Adjustment reason'
+        title: 'Razón de ajuste',
+        placeHolder: 'Razón de ajuste'
     },
     adjustmentType: {
-        title: 'Adjustment type',
-        placeHolder: 'Adjustment type',
-        defaultOption: 'Select adjustment type'
+        title: 'Tipo de ajuste',
+        placeHolder: 'Tipo de ajuste',
+        defaultOption: 'Seleccionar tipo de ajuste'
     },
     amount: {
-        title: 'Amount',
-        placeHolder: 'Amount'
+        title: 'Monto',
+        placeHolder: 'Monto'
     },
     bankName: {
-        title: 'Bank name',
-        placeHolder: 'Bank name'
+        title: 'Nombre del banco',
+        placeHolder: 'Nombre del banco'
     },
     bankAddress: {
-        title: 'Bank address',
-        placeHolder: 'Bank address'
+        title: 'Dirección del banco',
+        placeHolder: 'Dirección del banco'
     },
     basicCurrency: {
-        title: 'Currency',
-        placeHolder: 'Currency',
-        defaultOption: 'Select currency',
+        title: 'Divisa',
+        placeHolder: 'Divisa',
+        defaultOption: 'Seleccione el tipo de moneda',
     },
     basicRebateCommissionLevel: {
-        title: 'Commission level',
-        placeHolder: 'Commission level',
-        defaultOption: 'Select commission level',
+        title: 'Nivel de comisión',
+        placeHolder: 'Nivel de comisión',
+        defaultOption: 'Seleccione el nivel de comisión',
     },
     basicRebateCommissionLevelCurrent: {
-        title: 'Current commission level',
-        placeHolder: 'Current commission level',
+        title: 'Nivel de comisión actual',
+        placeHolder: 'Nivel de comisión actual',
     },
     basicTradingPlatform: {
-        title: 'Platform',
-        placeHolder: 'Platform',
-        defaultOption: 'Select platform',
+        title: 'Plataforma',
+        placeHolder: 'Plataforma',
+        defaultOption: 'Seleccionar plataforma',
     },
     bsbCode: {
-        title: 'BSB code',
-        placeHolder: 'BSB code'
+        title: 'BSB código',
+        placeHolder: 'BSB código'
     },
     beneficiaryAccountNumber: {
-        title: 'Beneficiary account number',
-        placeHolder: 'Beneficiary account number'
+        title: 'Número de cuenta del beneficiario',
+        placeHolder: 'Número de cuenta del beneficiario'
     },
     beneficiaryAccountName: {
-        title: 'Beneficiary account name',
-        placeHolder: 'Beneficiary account name'
+        title: 'Nombre del beneficiario de la cuenta',
+        placeHolder: 'Nombre del beneficiario de la cuenta'
     },
     city: {
-        title: 'City',
-        placeHolder: 'City'
+        title: 'Ciudad',
+        placeHolder: 'Ciudad'
     },
     confirmEmail: {
-        title: 'Confirm email',
-        placeHolder: 'Confirm email'
+        title: 'Confirmar correo electrónico',
+        placeHolder: 'Confirmar correo electrónico'
     },
     country: {
-        title: 'Your country',
-        placeHolder: 'Your country',
-        defaultOption: 'Select country'
+        title: 'Tu país',
+        placeHolder: 'Tu país',
+        defaultOption: 'Seleccionar país'
     },
     selectedCountry: {
-        title: 'Your country',
-        placeHolder: 'Your country',
-        defaultOption: 'Select country'
+        title: 'Tu país',
+        placeHolder: 'Tu país',
+        defaultOption: 'Seleccionar país'
     },
     countryProfile: {
-        title: 'Country',
-        placeHolder: 'Country'
+        title: 'País',
+        placeHolder: 'País'
     },
     currency: {
-        title: 'Currency',
-        placeHolder: 'Currency'
+        title: 'Badge',
+        placeHolder: 'Badge'
     },
     currentRefereeRebateAccountNumber: {
-        title: 'Current referee rebate account number',
-        placeHolder: 'Current referee rebate account number'
+        title: 'Número de cuenta de reembolso de árbitro actual',
+        placeHolder: 'Número de cuenta de reembolso de árbitro actual'
     },
     currentRefereeIbName: {
-        title: 'Current referee IB name',
-        placeHolder: 'Current referee IB name'
+        title: 'Nombre actual del árbitro IB',
+        placeHolder: 'Nombre actual del árbitro IB'
     },
     destroyDeclaration: {
-        title: 'Declaration',
-        placeHolder: 'Declaration'
+        title: 'Declaración',
+        placeHolder: 'Declaración'
     },
     dob: {
-        title: 'Date of birth',
-        placeHolder: 'Date of birth'
+        title: 'Fecha de nacimiento',
+        placeHolder: 'Fecha de nacimiento'
     },
     document: {
-        title: 'Document',
-        placeHolder: 'Document'
+        title: 'Documento',
+        placeHolder: 'Documento'
     },
     documentType: {
-        title: 'Document type',
-        placeHolder: 'Document type',
-        defaultOption: 'Select document type'
+        title: 'Tipo de Documento',
+        placeHolder: 'Tipo de Documento',
+        defaultOption: 'Seleccionar tipo de documento'
     },
     email: {
-        title: 'Email',
-        placeHolder: 'Email'
+        title: 'Correo electrónico',
+        placeHolder: 'Correo electrónico'
     },
     entityType: {
-        title: 'Entity type',
-        placeHolder: 'Entity type'
+        title: 'Tipo de entidad',
+        placeHolder: 'Tipo de entidad'
     },
     firstName: {
-        title: 'First name',
-        placeHolder: 'First name'
+        title: 'Nombre propio',
+        placeHolder: 'Nombre propio'
     },
     file: {
-        title: 'File',
-        placeHolder: 'File'
+        title: 'Archivo',
+        placeHolder: 'Archivo'
     },
     fromRebateAccount: {
-        title: 'From account',
-        placeHolder: 'From account',
-        defaultOption: 'Select rebate account'
+        title: 'De la cuenta',
+        placeHolder: 'De la cuenta',
+        defaultOption: 'Seleccionar cuenta de reembolso'
     },
     fullName: {
-        title: 'Full name',
-        placeHolder: 'Full name'
+        title: 'Nombre completo',
+        placeHolder: 'Nombre completo'
     },
     lastName: {
-        title: 'Last name',
-        placeHolder: 'Last name'
+        title: 'Apellido',
+        placeHolder: 'Apellido'
     },
     ibName: {
-        title: 'IB name',
-        placeHolder: 'IB name'
+        title: 'IB nombre',
+        placeHolder: 'IB nombre'
     },
     otp: {
         title: 'OTP',
         placeHolder: 'OTP'
     },
     password: {
-        title: 'Password',
-        placeHolder: 'Password'
+        title: 'Contraseña',
+        placeHolder: 'Contraseña'
     },
     passwordConfirm: {
-        title: 'Confirm password',
-        placeHolder: 'Confirm password'
+        title: 'Confirmar Contraseña',
+        placeHolder: 'Confirmar Contraseña'
     },
     passwordNew: {
-        title: 'New password',
-        placeHolder: 'New password'
+        title: 'Nueva contraseña',
+        placeHolder: 'Nueva contraseña'
     },
     passwordOld: {
-        title: 'Old password',
-        placeHolder: 'Old password'
+        title: 'Contraseña anterior',
+        placeHolder: 'Contraseña anterior'
     },
     phone: {
-        title: 'Phone',
-        placeHolder: 'Phone'
+        title: 'Teléfono',
+        placeHolder: 'Teléfono'
     },
     phoneCode: {
-        title: 'Phone code',
-        placeHolder: 'Phone code',
-        defaultOption: 'Select phone code'
+        title: 'Codigo telefonico',
+        placeHolder: 'Codigo telefonico',
+        defaultOption: 'Seleccionar código de teléfono'
     },
     selectedPhoneCode: {
-        title: 'Phone code',
-        placeHolder: 'Phone code',
-        defaultOption: 'Select phone code'
+        title: 'Codigo telefonico',
+        placeHolder: 'Codigo telefonico',
+        defaultOption: 'Seleccionar código de teléfono'
     },
     photoIdentification: {
-        title: 'Upload your photo identification',
-        placeHolder: 'Upload your photo identification'
+        title: 'Sube tu identificación con foto',
+        placeHolder: 'Sube tu identificación con foto'
     },
     postalCode: {
-        title: 'Postal zip code',
-        placeHolder: 'Postal zip code'
+        title: 'Código postal postal',
+        placeHolder: 'Código postal postal'
     },
     rebateAccount: {
-        title: 'Rebate account',
-        placeHolder: 'Rebate account',
-        defaultOption: 'Select rebate account'
+        title: 'Cuenta de reembolso',
+        placeHolder: 'Cuenta de reembolso',
+        defaultOption: 'Seleccionar cuenta de reembolso'
     },
     rebateAccountAddDeclaration: {
-        title: 'Declaration',
-        placeHolder: 'Declaration'
+        title: 'Declaración',
+        placeHolder: 'Declaración'
     },
     rebateAccountChangeReason: {
-        title: 'Update reason',
-        placeHolder: 'Update reason',
-        defaultOption: 'Select reason'
+        title: 'Razón de la actualización',
+        placeHolder: 'Razón de la actualización',
+        defaultOption: 'Seleccionar motivo'
     },
     rebateAccountNumber: {
-        title: 'Rebate account',
-        placeHolder: 'Rebate account'
+        title: 'Cuenta de reembolso',
+        placeHolder: 'Cuenta de reembolso'
     },
     rebateAccountSearch: {
-        title: 'Rebate account',
-        placeHolder: 'Search rebate account'
+        title: 'Cuenta de reembolso',
+        placeHolder: 'Buscar cuenta de reembolso'
     },
     rebateCalculationType: {
-        title: 'Calculation type',
-        placeHolder: 'Calculation type',
-        defaultOption: 'Select type'
+        title: 'Tipo de cálculo',
+        placeHolder: 'Tipo de cálculo',
+        defaultOption: 'Seleccione tipo'
     },
     rebateRateTableType: {
-        title: 'RRT type',
-        placeHolder: 'RRT type',
-        defaultOption: 'Select type'
+        title: 'RRT tipo',
+        placeHolder: 'RRT tipo',
+        defaultOption: 'Seleccione tipo'
     },
     region: {
-        title: 'Region',
-        defaultOption: 'Select region'
+        title: 'Región',
+        defaultOption: 'Seleccione región'
     },
     regionRefer: {
-        title: 'Region you will refer clients from',
-        defaultOption: 'Select region'
+        title: 'Región desde la que referirá clientes',
+        defaultOption: 'Seleccione región'
     },
     state: {
-        title: 'State/Province',
-        placeHolder: 'State/Province'
+        title: 'Provincia del estado',
+        placeHolder: 'Provincia del estado'
     },
     streetName: {
-        title: 'Street name',
-        placeHolder: 'Street name'
+        title: 'nombre de la calle',
+        placeHolder: 'nombre de la calle'
     },
     swift: {
-        title: 'SWIFT# or ABA Code',
-        placeHolder: 'SWIFT# or ABA Code'
+        title: '# SWIFT o código ABA',
+        placeHolder: '# SWIFT o código ABA'
     },
     termsAcceptance: {
-        title: 'Terms',
-        placeHolder: 'Terms'
+        title: 'Condiciones',
+        placeHolder: 'Condiciones'
     },
     toNominatedBankAccount: {
-        title: 'To nominated bank account',
-        placeHolder: 'To nominated bank account',
-        defaultOption: 'Select nominated bank account'
+        title: 'A la cuenta bancaria designada',
+        placeHolder: 'A la cuenta bancaria designada',
+        defaultOption: 'Seleccione la cuenta bancaria designada'
     },
     toRebateAccount: {
-        title: 'To account',
-        placeHolder: 'To account',
-        defaultOption: 'Select rebate account'
+        title: 'A la cuenta',
+        placeHolder: 'A la cuenta',
+        defaultOption: 'Seleccionar cuenta de reembolso'
     },
     toTradingAccount: {
-        title: 'To trading account',
-        placeHolder: 'To trading account',
-        defaultOption: 'Select trading account'
+        title: 'A la cuenta comercial',
+        placeHolder: 'A la cuenta comercial',
+        defaultOption: 'Seleccionar cuenta comercial'
     },
     town: {
-        title: 'Town/Suburb',
-        placeHolder: 'Town/Suburb'
+        title: 'Pueblo / Suburbio',
+        placeHolder: 'Pueblo / Suburbio'
     },
     tradingAccountNumber: {
-        title: 'Trading account number',
-        placeHolder: 'Trading account number'
+        title: 'Número de cuenta comercial',
+        placeHolder: 'Número de cuenta comercial'
     },
     tradingClientSearch: {
-        title: 'Search trading client',
-        placeHolder: 'Search trading client'
+        title: 'Buscar cliente comercial',
+        placeHolder: 'Buscar cliente comercial'
     },
     tradingCurrency: {
-        title: 'Currency',
-        placeHolder: 'Currency',
-        defaultOption: 'Select currency'
+        title: 'Divisa',
+        placeHolder: 'Divisa',
+        defaultOption: 'Seleccione el tipo de moneda'
     },
     tradingCurrencyMulti: {
-        title: 'Currencies',
-        placeHolder: 'Currencies',
-        defaultOption: 'Select currencies'
+        title: 'Monedas',
+        placeHolder: 'Monedas',
+        defaultOption: 'Seleccionar monedas'
     },
     tradingPlatform: {
-        title: 'Platform',
-        placeHolder: 'Platform',
-        defaultOption: 'Select platform'
+        title: 'Plataforma',
+        placeHolder: 'Plataforma',
+        defaultOption: 'Seleccionar plataforma'
     },
     tradingProduct: {
-        title: 'Product',
-        placeHolder: 'Product',
-        defaultOption: 'Select product'
+        title: 'Producto',
+        placeHolder: 'Producto',
+        defaultOption: 'Seleccione Producto'
     },
     tradingProductMulti: {
-        title: 'Products',
-        placeHolder: 'Products',
-        defaultOption: 'Select products'
+        title: 'Productos',
+        placeHolder: 'Productos',
+        defaultOption: 'Seleccionar productos'
     },
     transactionType: {
-        title: 'Transaction type',
-        placeHolder: 'Transaction type',
-        defaultOption: 'Select transaction type'
+        title: 'Tipo de transacción',
+        placeHolder: 'Tipo de transacción',
+        defaultOption: 'Seleccionar tipo de transacción'
     },
     unitNumber: {
-        title: 'Unit/Building number',
-        placeHolder: 'Unit/Building number'
+        title: 'Número de unidad / edificio',
+        placeHolder: 'Número de unidad / edificio'
     },
     updateDate: {
-        title: 'Update date',
-        placeHolder: 'Update date'
+        title: 'Fecha de actualización',
+        placeHolder: 'Fecha de actualización'
     },
     updateDeclaration: {
-        title: 'Update declaration',
-        placeHolder: 'Update declaration'
+        title: 'Declaración de actualización',
+        placeHolder: 'Declaración de actualización'
     },
     uploadReason: {
-        title: 'Apply for',
-        placeHolder: 'Apply for',
-        defaultOption: 'Select reason'
+        title: 'Solicitar',
+        placeHolder: 'Solicitar',
+        defaultOption: 'Seleccionar motivo'
     },
     userIdNumber: {
-        title: 'User account number',
-        placeHolder: 'User account number'
+        title: 'Número de cuenta de usuario',
+        placeHolder: 'Número de cuenta de usuario'
     },
     userLevel: {
-        title: 'User level',
-        placeHolder: 'User level',
-        defaultOption: 'Select level'
+        title: 'Nivel de usuario',
+        placeHolder: 'Nivel de usuario',
+        defaultOption: 'Selecciona el nivel'
     },
     userLevelThreeSelection: {
-        title: 'Master level',
-        placeHolder: 'Master level',
-        defaultOption: 'Select'
+        title: 'Nivel de maestría',
+        placeHolder: 'Nivel de maestría',
+        defaultOption: 'Seleccione'
     },
     userLevelThreeSelectionView: {
-        title: 'Master level',
-        placeHolder: 'Master level',
-        defaultOption: 'Select'
+        title: 'Nivel de maestría',
+        placeHolder: 'Nivel de maestría',
+        defaultOption: 'Seleccione'
     },
     userLevelFourSelection: {
-        title: 'Level 1',
-        placeHolder: 'Level 1',
-        defaultOption: 'Select'
+        title: 'Nivel 1',
+        placeHolder: 'Nivel 1',
+        defaultOption: 'Seleccione'
     },
     userLevelFourSelectionView: {
-        title: 'Level 1',
-        placeHolder: 'Level 1',
-        defaultOption: 'Select'
+        title: 'Nivel 1',
+        placeHolder: 'Nivel 1',
+        defaultOption: 'Seleccione'
     },
     userLevelFiveSelection: {
-        title: 'Level 2',
-        placeHolder: 'Level 2',
-        defaultOption: 'Select'
+        title: 'Nivel 2',
+        placeHolder: 'Nivel 2',
+        defaultOption: 'Seleccione'
     },
     userLevelFiveSelectionView: {
-        title: 'Level 2',
-        placeHolder: 'Level 2',
-        defaultOption: 'Select'
+        title: 'Nivel 2',
+        placeHolder: 'Nivel 2',
+        defaultOption: 'Seleccione'
     },
     userLevelSixSelection: {
-        title: 'Level 3',
-        placeHolder: 'Level 3',
-        defaultOption: 'Select'
+        title: 'Nivel 3',
+        placeHolder: 'Nivel 3',
+        defaultOption: 'Seleccione'
     },
     userLevelSixSelectionView: {
-        title: 'Level 3',
-        placeHolder: 'Level 3',
-        defaultOption: 'Select'
+        title: 'Nivel 3',
+        placeHolder: 'Nivel 3',
+        defaultOption: 'Seleccione'
     },
     userLevelSevenSelection: {
-        title: 'Level 4',
-        placeHolder: 'Level 4',
-        defaultOption: 'Select'
+        title: 'Nivel 4',
+        placeHolder: 'Nivel 4',
+        defaultOption: 'Seleccione'
     },
     userLevelSevenSelectionView: {
-        title: 'Level 4',
-        placeHolder: 'Level 4',
-        defaultOption: 'Select'
+        title: 'Nivel 4',
+        placeHolder: 'Nivel 4',
+        defaultOption: 'Seleccione'
     },
     userLevelEightSelection: {
-        title: 'Level 5',
-        placeHolder: 'Level 5',
-        defaultOption: 'Select'
+        title: 'Nivel 5',
+        placeHolder: 'Nivel 5',
+        defaultOption: 'Seleccione'
     },
     userLevelEightSelectionView: {
-        title: 'Level 5',
-        placeHolder: 'Level 5',
-        defaultOption: 'Select'
+        title: 'Nivel 5',
+        placeHolder: 'Nivel 5',
+        defaultOption: 'Seleccione'
     },
     salesStatus: {
-        title: 'Sales Status',
-        placeHolder: 'Sales Status',
-        defaultOption: 'Select Sales Status'
+        title: 'Estado de ventas',
+        placeHolder: 'Estado de ventas',
+        defaultOption: 'Seleccionar estado de ventas'
     },
     userComment: {
-        title: 'Comment',
-        placeHolder: 'Please type your comment',
+        title: 'Comentario',
+        placeHolder: 'Por favor escriba su comentario',
     },
     companyName: {
-        title: 'Company Name',
-        placeHolder: 'Company Name'
+        title: 'nombre de empresa',
+        placeHolder: 'nombre de empresa'
     },
 };
 
