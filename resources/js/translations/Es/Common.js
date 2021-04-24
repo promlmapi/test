@@ -20,6 +20,9 @@ export const EnTranslationCommon = {
     "update": {
         "title": "Update",
     },
+    "update1": {
+        "title": "Update",
+    },
 };
 
 export default EnTranslationCommon;
