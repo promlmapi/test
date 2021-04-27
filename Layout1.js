@@ -17,6 +17,9 @@ export const EnTranslationLayout = {
                 "marketingTools": {
                     "title": "Marketing Tools"
                 },
+                "marketingTools1": {
+                    "title": "Marketing Tools1"
+                },
                 "login": {
                     "title": "Login"
                 },
