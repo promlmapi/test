@@ -1,5 +1,5 @@
 export const EnTranslationField = {
-    accountHolderAddress: {
+accountHolderAddresss: {
         title: 'Account Holder\'s Address',
         placeHolder: 'Account Holder\'s Addres'
     },

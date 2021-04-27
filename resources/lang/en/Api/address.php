@@ -1,6 +1,6 @@
 <?php
 
-$resourceUpdateSuffix = ' Please ensure that you have added relevant supporting documents for address verification.';
+$resourceUpdateSuffixed = ' Please ensure that you have added relevant supporting documents for address verification.';
 
 $resourceDocUpdateSuffix = ' Please ensure that you have added relevant documents from below for verification.
 <br/><br/>
