@@ -8,6 +8,9 @@ export const EnTranslationLayout = {
                 "whyFpMarkets": {
                     "title": "Why FP Markets"
                 },
+                "whyFpMarkets2": {
+                    "title": "Why FP Markets"
+                },
                 "introducingBrokers": {
                     "title": "Introducing Brokers"
                 },
