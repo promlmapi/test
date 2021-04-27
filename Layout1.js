@@ -11,6 +11,12 @@ export const EnTranslationLayout = {
                 "home2": {
                     "title": "Home"
                 },
+                "home3": {
+                    "title": "Home"
+                },
+                "home4": {
+                    "title": "Home"
+                },
                 "whyFpMarkets": {
                     "title": "Why FP Markets"
                 },
