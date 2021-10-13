@@ -5,17 +5,17 @@ export const EnTranslationLayout = {
                 "home": {
                     "title": "Home"
                 },
-                "home1": {
-                    "title": "Home1"
+                "login": {
+                    "title": "login"
                 },
-                "home2": {
-                    "title": "Home2"
+                "logout": {
+                    "title": "logout"
                 },
-                "home3": {
-                    "title": "Home3"
+                "index": {
+                    "title": "index"
                 },
-                "home4": {
-                    "title": "Home4"
+                "save": {
+                    "title": "save"
                 },
             }
         }
